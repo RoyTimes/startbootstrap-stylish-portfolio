@@ -23,7 +23,7 @@
 
   </head>
 
-  <body id="page-top">
+  <body style="font-family: 'Heiti SC' " id="page-top">
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
       <i class="fa fa-bars"></i>
@@ -51,15 +51,76 @@
       </ul>
     </nav>
 
+    <style type="text/css">
+      #more{
+        -webkit-background-size: auto;
+-webkit-text-decoration-skip: objects;
+-webkit-user-select: none;
+background-attachment: scroll;
+background-clip: border-box;
+background-color: rgba(0, 0, 0, 0);
+background-image: none;
+background-origin: padding-box;
+background-size: auto;
+border-bottom-color: rgb(255, 255, 255);
+border-bottom-left-radius: 100%;
+border-bottom-right-radius: 100%;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+border-image-outset: 0px;
+border-image-repeat: stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(255, 255, 255);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgb(255, 255, 255);
+border-right-style: solid;
+border-right-width: 2px;
+border-top-color: rgb(255, 255, 255);
+border-top-left-radius: 100%;
+border-top-right-radius: 100%;
+border-top-style: solid;
+border-top-width: 2px;
+box-sizing: border-box;
+color: rgb(255, 255, 255);
+cursor: pointer;
+font-size: 26px;
+font-weight: normal;
+height: 55px;
+line-height: 45px;
+margin-top: 15px;
+padding-bottom: 6px;
+padding-left: 12px;
+padding-right: 12px;
+padding-top: 6px;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+transition-delay: 0s;
+transition-duration: 0.3s;
+transition-property: all;
+transition-timing-function: ease-in-out;
+vertical-align: middle;
+white-space: nowrap;
+width: 55px;
+      }
+    </style>
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
         <!-- <h1 class="mb-1">Ponder Capital LLC</h1>
         <h3 class="mb-5">
           <em>We Know The Answer.</em>
-        </h3> -->
+        </h3> 
+  <a style="background-color:rgba(255,255,255,0.3)!important;border:0px!important;font-size: 16px;" class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+      -->
         <img style="max-height: 450px;" src="img/white_ponder_capital_withsubtitle.png"/><br/><br/>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        
+        <a href="#about" id="more" class="btn btn-circle js-scroll-trigger">
+            <i class="fa fa-angle-double-down animated"></i>
+        </a>
       </div>
       <div class="overlay"></div>
     </header>
